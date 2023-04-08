@@ -1,0 +1,12 @@
+1. Frontend 
+    HTML => makes the skeleton of the web page
+    CSS  =>
+    Javascript => 
+2. Backend
+
+
+UI
+
+figure out reusable elements 
+divide the ui into fragment
+build the skeleton > style (css)

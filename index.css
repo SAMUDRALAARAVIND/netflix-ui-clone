@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    color: white ;
+    font-family: sans-serif;
+    background-color: black;
+}
+.top-header, .body-section , .faq-container{
+    border-bottom: 5px solid #535251;
+}
+.top-header {
+    height: 80vh;
+    background-image: url(./background.jpeg);
+}
+.container {
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.dropdown-container {
+   position: relative;
+}
+.btn {
+    background-color: #E50815;
+    padding: 8px 15px;
+    border: none ;
+    color: white ;
+    border-radius: 5px;
+}
+.language-picker {
+    padding: 10px 30px;
+    background-color: rgba(0,0,0,0.7);
+    color: white ;
+    border: 1px solid #535251 ;
+    border-radius: 5px;
+
+}
+.language {
+    left: 4px;
+}
+.language , .drop-down{
+    position: absolute;
+    top: 5px;
+}
+.drop-down {
+    right: -2px;
+    top: 6px;
+}
+
+.navbar {
+    margin: 0 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-half { 
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+/* Header Content styles */
+.content {
+    margin:20vh auto;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h1 , .content p {
+    margin-top: 20px;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.content p{
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.email-container {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    margin-top: 20px;
+}
+.email-container > input {
+    flex-grow: 1;
+    background-color: rgba(0,0,0,0.7);
+    border: 1px solid  #535251;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.get-started-btn {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.get-started-btn > span {
+    font-size: 30px !important;
+}
+
+
+/* Body section */
+.body-section {
+    display: flex;
+    align-items: center;
+    padding:40px 100px;
+}
+.left-item h1, .right-item h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.left-item p , .right-item p{
+    font-size: 24px;
+}
+.right-item {
+    position: relative;
+}
+.right-item > video {
+    position: absolute;
+    left: 80px;
+    top: 20%;
+    z-index: -1;
+}
+.layout {
+    border: 2px solid #535251;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute; 
+    width: 50%;
+    bottom: 0;
+    left: 25% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.layout p {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.layout p span {
+    color: blue ;
+}
+.layout img {
+    width: 50px;
+}
+.static-left-item {
+    position: relative ;
+}
+
+.faq-container {
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.faq-container > h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.faq {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #2D2D2D;
+    transition-duration: 0.5s;
+}
+.faq > p, .faq > span {
+   font-size: 35px !important;
+}
+.faq:hover {
+    background-color: #736c6c;
+}
+.faq-container > p {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+/* Footer styles */
+
+.footer-container {
+    padding: 100px;
+}
+.footer-container, .footer-container a  {
+    color: #AFAFAF ;
+}
+.links-container {
+    display: flex;
+    gap: 200px;
+    justify-content: flex-start;
+    padding: 40px 0;
+}
+.links-item {
+    display: flex;
+    flex-direction: column;
+    gap :20px;
+}
